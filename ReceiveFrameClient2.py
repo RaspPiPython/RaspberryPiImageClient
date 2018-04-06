@@ -14,7 +14,7 @@ import socket, pickle, cv2
 #s.close()
 #print ('Received', repr(data_arr))
 
-HOST = '192.168.0.103'
+HOST = '192.168.0.101'
 PORT = 50009
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
